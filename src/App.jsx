@@ -1,13 +1,12 @@
 
-import ComponenteNavbar from "./Componentes/ComponenteNavbar/ComponenteNavbar"
-import ItemListContainer from "./Componentes/ItemListContainer/ItemListContainer"
-import ComponenteCartwidget from "./Componentes/ComponenteCartwidget/ComponenteCartwidget"
- App = () => {
+import ComponenteNavbar from "./Componentes/ComponenteNavbar/ComponenteNavbar";
+import ItemListContainer from "./Componentes/ItemListContainer/ItemListContainer";
+import ComponenteCartwidget from "./Componentes/ComponenteCartwidget/ComponenteCartwidget";
+import CommponenteItemCount from "./Componentes/ComponenteItemCount/ComponenteItemCount";
+const App = () => {
   return (
-    <div className="modelo">
-      <h1></h1>
+    <div>
       <ComponenteNavbar></ComponenteNavbar>
-      <ItemListContainer></ItemListContainer>
     </div>
 
   )
